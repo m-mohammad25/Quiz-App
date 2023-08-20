@@ -16,7 +16,7 @@ const durationinSeconds = 5;
 const startMsg = "Are you ready?\n Time will start after closing this window";
 
 let fetchQuestions = async function () {
-  let response = await fetch("../json/questions.json");
+  let response = await fetch("/json/questions.json");
   let questions = JSON.parse(await response.text());
   return questions;
 };
