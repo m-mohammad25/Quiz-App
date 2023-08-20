@@ -1,7 +1,7 @@
 # Quiz-App
-This app helps do organize <em>multipule choice quizes</em> where each quetion has a <em>specific duration</em> to be answered.
+This app helps do organize <strong>multipule choice quizes</strong> where each quetion has a <strong>specific duration</strong> to be answered.
 The quiz starts up when the user is ready, and then, they move on through all questions till they reach the end.
-the questinons are saved in a <em>json</em> file and are read in the code.
+the questinons are saved in a <strong>json</strong> file and are read in the code.
 
-Technologies Used: <em>HTML</em>, <em>CSS</em>, <em>JavaScript</em>, <em>Sass</em>, <em>Json</em>
-Live Demo: https://m-mohammad25.github.io/Quiz-App/
+Technologies Used: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Sass</strong>, <strong>Json</strong><br>
+Live Dstrongo: https://m-mohammad25.github.io/Quiz-App/
