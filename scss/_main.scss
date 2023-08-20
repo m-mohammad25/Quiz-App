@@ -1,0 +1,26 @@
+main {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  background-color: #eee;
+  width: 90%;
+  padding: 10px;
+  row-gap: 1rem;
+}
+
+button.submit {
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  background-color: $btn-bg;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #0b5dbf;
+  }
+}

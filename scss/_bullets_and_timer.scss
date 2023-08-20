@@ -1,0 +1,21 @@
+section.bullets_and_timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px $px;
+  background-color: white;
+  .bullets {
+    column-gap: 5px;
+    display: flex;
+    .bullet {
+      $dimensions: 20px;
+      width: $dimensions;
+      height: $dimensions;
+      border-radius: 50%;
+      background-color: lightgray;
+    }
+    .fill {
+      background-color: $btn-bg;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  background-color: #eee;
+  width: 90%;
+  padding: 10px;
+  row-gap: 1rem;
+}
+
+button.submit {
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  background-color: #0075ff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button.submit:hover {
+  background-color: #0b5dbf;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 17px 12px;
+  font-size: 1.1rem;
+}
+
+section.question-sect {
+  background-color: white;
+  padding-bottom: 15px;
+}
+section.question-sect .question {
+  font-weight: bold;
+  padding: 15px 12px;
+  margin: 0;
+}
+section.question-sect form.choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.question-sect form.choices div.answer-wrapper {
+  flex-basis: 100%;
+  display: inline-flex;
+  background-color: #f9f9f9;
+  width: 97%;
+  padding: 15px 12px;
+  transition: background-color 0.3s;
+  column-gap: 5px;
+}
+section.question-sect form.choices div.answer-wrapper:hover {
+  background-color: #eee;
+}
+section.question-sect form.choices div.answer-wrapper:not(:last-child) {
+  border-bottom: 1px solid #dfdfdf;
+}
+section.question-sect form.choices div.answer-wrapper label {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+section.question-sect form.choices div.answer-wrapper input[type=radio]:checked + label {
+  color: #0075ff;
+}
+
+section.bullets_and_timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 12px;
+  background-color: white;
+}
+section.bullets_and_timer .bullets {
+  column-gap: 5px;
+  display: flex;
+}
+section.bullets_and_timer .bullets .bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+section.bullets_and_timer .bullets .fill {
+  background-color: #0075ff;
+}
+
+/*# sourceMappingURL=style.css.map */
